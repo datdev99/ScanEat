@@ -1,0 +1,6 @@
+@ScanEat.API_HostAddress = http://localhost:5013
+
+GET {{ScanEat.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,12 @@
+D:\DatDev\ScanEat\ScanEat.Domain\bin\Debug\net8.0\ScanEat.Domain.deps.json
+D:\DatDev\ScanEat\ScanEat.Domain\bin\Debug\net8.0\ScanEat.Domain.dll
+D:\DatDev\ScanEat\ScanEat.Domain\bin\Debug\net8.0\ScanEat.Domain.pdb
+D:\DatDev\ScanEat\ScanEat.Domain\obj\Debug\net8.0\ScanEat.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\DatDev\ScanEat\ScanEat.Domain\obj\Debug\net8.0\ScanEat.Domain.AssemblyInfoInputs.cache
+D:\DatDev\ScanEat\ScanEat.Domain\obj\Debug\net8.0\ScanEat.Domain.AssemblyInfo.cs
+D:\DatDev\ScanEat\ScanEat.Domain\obj\Debug\net8.0\ScanEat.Domain.csproj.CoreCompileInputs.cache
+D:\DatDev\ScanEat\ScanEat.Domain\obj\Debug\net8.0\ScanEat.Domain.dll
+D:\DatDev\ScanEat\ScanEat.Domain\obj\Debug\net8.0\refint\ScanEat.Domain.dll
+D:\DatDev\ScanEat\ScanEat.Domain\obj\Debug\net8.0\ScanEat.Domain.pdb
+D:\DatDev\ScanEat\ScanEat.Domain\obj\Debug\net8.0\ref\ScanEat.Domain.dll
+D:\DatDev\ScanEat\ScanEat.Domain\obj\Debug\net8.0\ScanEat.Domain.csproj.AssemblyReference.cache
