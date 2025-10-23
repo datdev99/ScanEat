@@ -11,20 +11,30 @@ namespace ScanEat.Application.Features.Commands
     {
         private readonly IProductRepository _productRepository;
         private readonly IUnitOfWork _unitOfWork;
+        private readonly ICategoryRepository _categoryRepository;
 
-        public CreateProductCommandHandler(IProductRepository productRepository, IUnitOfWork unitOfWork)
+        public CreateProductCommandHandler(IProductRepository productRepository, IUnitOfWork unitOfWork, ICategoryRepository categoryRepository)
         {
             _productRepository = productRepository;
             _unitOfWork = unitOfWork;
+            _categoryRepository = categoryRepository;
         }
         public async Task<Product> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
+            var existingCategory = await _categoryRepository.GetByIdAsync(request.product.CategoryId);
+            if(existingCategory == null)
+            {
+                throw new Exception("Category not found");
+            }
+
             var newProduct = new Product
             {
                 Id = Guid.NewGuid(),
                 Name = request.product.Name,
                 Description = request.product.Description,
-                Price = request.product.Price
+                Price = request.product.Price,
+                CategoryId = request.product.CategoryId,
+                TenantId = request.product.TenantId,
             };
 
             var result = await _productRepository.AddAsync(newProduct);

@@ -13,3 +13,4 @@ D:\DatDev\ScanEat\ScanEat.Application\obj\Debug\net8.0\ScanEat.Application.cspro
 D:\DatDev\ScanEat\ScanEat.Application\bin\Debug\net8.0\ScanEat.Domain.dll
 D:\DatDev\ScanEat\ScanEat.Application\bin\Debug\net8.0\ScanEat.Domain.pdb
 D:\DatDev\ScanEat\ScanEat.Application\obj\Debug\net8.0\ScanEat..F8E8908F.Up2Date
+D:\DatDev\ScanEat\ScanEat.Application\obj\Debug\net8.0\ScanEat.Application.sourcelink.json

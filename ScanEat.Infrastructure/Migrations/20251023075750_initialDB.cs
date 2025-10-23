@@ -36,7 +36,6 @@ namespace ScanEat.Infrastructure.Migrations
                     TenantId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    TenantId1 = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
@@ -46,11 +45,6 @@ namespace ScanEat.Infrastructure.Migrations
                     table.ForeignKey(
                         name: "FK_Categories_Tenants_TenantId",
                         column: x => x.TenantId,
-                        principalTable: "Tenants",
-                        principalColumn: "Id");
-                    table.ForeignKey(
-                        name: "FK_Categories_Tenants_TenantId1",
-                        column: x => x.TenantId1,
                         principalTable: "Tenants",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -64,9 +58,8 @@ namespace ScanEat.Infrastructure.Migrations
                     TenantId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     FullName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Phone = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    TenantId1 = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
@@ -76,11 +69,6 @@ namespace ScanEat.Infrastructure.Migrations
                     table.ForeignKey(
                         name: "FK_Customers_Tenants_TenantId",
                         column: x => x.TenantId,
-                        principalTable: "Tenants",
-                        principalColumn: "Id");
-                    table.ForeignKey(
-                        name: "FK_Customers_Tenants_TenantId1",
-                        column: x => x.TenantId1,
                         principalTable: "Tenants",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -145,7 +133,6 @@ namespace ScanEat.Infrastructure.Migrations
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     IsAvailable = table.Column<bool>(type: "bit", nullable: false),
-                    TenantId1 = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
@@ -161,11 +148,6 @@ namespace ScanEat.Infrastructure.Migrations
                         name: "FK_Products_Tenants_TenantId",
                         column: x => x.TenantId,
                         principalTable: "Tenants",
-                        principalColumn: "Id");
-                    table.ForeignKey(
-                        name: "FK_Products_Tenants_TenantId1",
-                        column: x => x.TenantId1,
-                        principalTable: "Tenants",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -179,7 +161,6 @@ namespace ScanEat.Infrastructure.Migrations
                     CustomerId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     TotalAmount = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    TenantId1 = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
@@ -194,11 +175,6 @@ namespace ScanEat.Infrastructure.Migrations
                     table.ForeignKey(
                         name: "FK_Orders_Tenants_TenantId",
                         column: x => x.TenantId,
-                        principalTable: "Tenants",
-                        principalColumn: "Id");
-                    table.ForeignKey(
-                        name: "FK_Orders_Tenants_TenantId1",
-                        column: x => x.TenantId1,
                         principalTable: "Tenants",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -265,19 +241,9 @@ namespace ScanEat.Infrastructure.Migrations
                 column: "TenantId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Categories_TenantId1",
-                table: "Categories",
-                column: "TenantId1");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Customers_TenantId",
                 table: "Customers",
                 column: "TenantId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Customers_TenantId1",
-                table: "Customers",
-                column: "TenantId1");
 
             migrationBuilder.CreateIndex(
                 name: "IX_OrderItems_OrderId",
@@ -300,11 +266,6 @@ namespace ScanEat.Infrastructure.Migrations
                 column: "TenantId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Orders_TenantId1",
-                table: "Orders",
-                column: "TenantId1");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Products_CategoryId",
                 table: "Products",
                 column: "CategoryId");
@@ -313,11 +274,6 @@ namespace ScanEat.Infrastructure.Migrations
                 name: "IX_Products_TenantId",
                 table: "Products",
                 column: "TenantId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Products_TenantId1",
-                table: "Products",
-                column: "TenantId1");
 
             migrationBuilder.CreateIndex(
                 name: "IX_ProductSales_ProductId",

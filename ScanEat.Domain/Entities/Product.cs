@@ -1,4 +1,5 @@
 ﻿using ScanEat.Domain.Common;
+using System.Text.Json.Serialization;
 
 namespace ScanEat.Domain.Entities
 {
@@ -14,6 +15,7 @@ namespace ScanEat.Domain.Entities
         public bool IsAvailable { get; set; } = true;
 
         public Tenant Tenant { get; set; } = default!;
+        [JsonIgnore]
         public Category Category { get; set; } = default!;
         public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
         public ICollection<ProductSales> ProductSales { get; set; } = new List<ProductSales>();

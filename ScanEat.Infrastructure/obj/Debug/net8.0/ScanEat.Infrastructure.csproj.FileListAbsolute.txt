@@ -17,3 +17,4 @@ D:\DatDev\ScanEat\ScanEat.Infrastructure\bin\Debug\net8.0\ScanEat.Infrastructure
 D:\DatDev\ScanEat\ScanEat.Infrastructure\bin\Debug\net8.0\ScanEat.Application.dll
 D:\DatDev\ScanEat\ScanEat.Infrastructure\bin\Debug\net8.0\ScanEat.Application.pdb
 D:\DatDev\ScanEat\ScanEat.Infrastructure\obj\Debug\net8.0\ScanEat.Infrastructure.genruntimeconfig.cache
+D:\DatDev\ScanEat\ScanEat.Infrastructure\obj\Debug\net8.0\ScanEat.Infrastructure.sourcelink.json

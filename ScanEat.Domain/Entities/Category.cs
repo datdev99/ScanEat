@@ -1,4 +1,5 @@
 ﻿using ScanEat.Domain.Common;
+using System.Text.Json.Serialization;
 
 namespace ScanEat.Domain.Entities
 {

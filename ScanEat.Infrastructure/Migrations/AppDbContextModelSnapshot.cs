@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ScanEat.Infrastructure.Persistence;
+using ScanEat.Infrastructure.Persistence.Data;
 
 #nullable disable
 
@@ -41,17 +41,12 @@ namespace ScanEat.Infrastructure.Migrations
                     b.Property<Guid>("TenantId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("TenantId1")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
                     b.HasIndex("TenantId");
-
-                    b.HasIndex("TenantId1");
 
                     b.ToTable("Categories");
                 });
@@ -63,14 +58,12 @@ namespace ScanEat.Infrastructure.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Address")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FullName")
@@ -84,17 +77,12 @@ namespace ScanEat.Infrastructure.Migrations
                     b.Property<Guid>("TenantId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("TenantId1")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
                     b.HasIndex("TenantId");
-
-                    b.HasIndex("TenantId1");
 
                     b.ToTable("Customers");
                 });
@@ -118,9 +106,6 @@ namespace ScanEat.Infrastructure.Migrations
                     b.Property<Guid>("TenantId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("TenantId1")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<decimal>("TotalAmount")
                         .HasColumnType("decimal(18,2)");
 
@@ -132,8 +117,6 @@ namespace ScanEat.Infrastructure.Migrations
                     b.HasIndex("CustomerId");
 
                     b.HasIndex("TenantId");
-
-                    b.HasIndex("TenantId1");
 
                     b.ToTable("Orders");
                 });
@@ -202,9 +185,6 @@ namespace ScanEat.Infrastructure.Migrations
                     b.Property<Guid>("TenantId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("TenantId1")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
@@ -213,8 +193,6 @@ namespace ScanEat.Infrastructure.Migrations
                     b.HasIndex("CategoryId");
 
                     b.HasIndex("TenantId");
-
-                    b.HasIndex("TenantId1");
 
                     b.ToTable("Products");
                 });
@@ -363,15 +341,9 @@ namespace ScanEat.Infrastructure.Migrations
 
             modelBuilder.Entity("ScanEat.Domain.Entities.Category", b =>
                 {
-                    b.HasOne("ScanEat.Domain.Entities.Tenant", null)
-                        .WithMany()
-                        .HasForeignKey("TenantId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
                     b.HasOne("ScanEat.Domain.Entities.Tenant", "Tenant")
                         .WithMany("Categories")
-                        .HasForeignKey("TenantId1")
+                        .HasForeignKey("TenantId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -380,15 +352,9 @@ namespace ScanEat.Infrastructure.Migrations
 
             modelBuilder.Entity("ScanEat.Domain.Entities.Customer", b =>
                 {
-                    b.HasOne("ScanEat.Domain.Entities.Tenant", null)
-                        .WithMany()
-                        .HasForeignKey("TenantId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
                     b.HasOne("ScanEat.Domain.Entities.Tenant", "Tenant")
                         .WithMany("Customers")
-                        .HasForeignKey("TenantId1")
+                        .HasForeignKey("TenantId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -403,15 +369,9 @@ namespace ScanEat.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.HasOne("ScanEat.Domain.Entities.Tenant", null)
-                        .WithMany()
-                        .HasForeignKey("TenantId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
                     b.HasOne("ScanEat.Domain.Entities.Tenant", "Tenant")
                         .WithMany("Orders")
-                        .HasForeignKey("TenantId1")
+                        .HasForeignKey("TenantId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -447,15 +407,9 @@ namespace ScanEat.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.HasOne("ScanEat.Domain.Entities.Tenant", null)
-                        .WithMany()
-                        .HasForeignKey("TenantId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
                     b.HasOne("ScanEat.Domain.Entities.Tenant", "Tenant")
                         .WithMany("Products")
-                        .HasForeignKey("TenantId1")
+                        .HasForeignKey("TenantId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

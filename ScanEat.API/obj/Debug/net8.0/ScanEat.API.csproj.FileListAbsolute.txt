@@ -50,12 +50,6 @@ D:\DatDev\ScanEat\ScanEat.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 D:\DatDev\ScanEat\ScanEat.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\DatDev\ScanEat\ScanEat.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\DatDev\ScanEat\ScanEat.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\DatDev\ScanEat\ScanEat.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-D:\DatDev\ScanEat\ScanEat.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-D:\DatDev\ScanEat\ScanEat.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\DatDev\ScanEat\ScanEat.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-D:\DatDev\ScanEat\ScanEat.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\DatDev\ScanEat\ScanEat.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\DatDev\ScanEat\ScanEat.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 D:\DatDev\ScanEat\ScanEat.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 D:\DatDev\ScanEat\ScanEat.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
@@ -154,3 +148,4 @@ D:\DatDev\ScanEat\ScanEat.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspa
 D:\DatDev\ScanEat\ScanEat.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\DatDev\ScanEat\ScanEat.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\DatDev\ScanEat\ScanEat.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DatDev\ScanEat\ScanEat.API\obj\Debug\net8.0\ScanEat.API.sourcelink.json

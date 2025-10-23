@@ -4,6 +4,7 @@ using ScanEat.Domain.Interfaces;
 using ScanEat.Infrastructure.Persistence.Repository;
 using Microsoft.EntityFrameworkCore;
 using ScanEat.Domain.Options;
+using ScanEat.Infrastructure.Persistence.Data;
 
 namespace ScanEat.Infrastructure.Persistence
 {
@@ -18,6 +19,10 @@ namespace ScanEat.Infrastructure.Persistence
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<ITenantRepository, TenantRepository>();
+            services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
 
             return services;
         }

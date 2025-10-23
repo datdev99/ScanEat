@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ScanEat.Domain.Entities;
 
-namespace ScanEat.Infrastructure.Persistence
+namespace ScanEat.Infrastructure.Persistence.Data
 {
     public class AppDbContext : DbContext
     {
@@ -29,19 +29,17 @@ namespace ScanEat.Infrastructure.Persistence
                 if (clrType == typeof(Tenant))
                     continue;
 
-                if (entityType.FindProperty("TenantId") != null)
+                if (entityType.FindProperty("TenantId") != null &&
+                    entityType.FindNavigation("Tenant") == null)
                 {
-                    modelBuilder.Entity(clrType)
-                        .HasIndex("TenantId");
-
                     modelBuilder.Entity(clrType)
                         .HasOne(typeof(Tenant))
                         .WithMany()
                         .HasForeignKey("TenantId")
-                        .OnDelete(DeleteBehavior.NoAction); // 🚀 Rất quan trọng
+                        .OnDelete(DeleteBehavior.NoAction);
                 }
-            }
 
+            }
 
             // Cấu hình riêng nếu cần (ví dụ Product → Category)
             modelBuilder.Entity<Product>()

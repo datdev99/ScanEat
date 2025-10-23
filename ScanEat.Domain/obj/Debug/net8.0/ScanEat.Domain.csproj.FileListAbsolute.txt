@@ -10,3 +10,4 @@ D:\DatDev\ScanEat\ScanEat.Domain\obj\Debug\net8.0\refint\ScanEat.Domain.dll
 D:\DatDev\ScanEat\ScanEat.Domain\obj\Debug\net8.0\ScanEat.Domain.pdb
 D:\DatDev\ScanEat\ScanEat.Domain\obj\Debug\net8.0\ref\ScanEat.Domain.dll
 D:\DatDev\ScanEat\ScanEat.Domain\obj\Debug\net8.0\ScanEat.Domain.csproj.AssemblyReference.cache
+D:\DatDev\ScanEat\ScanEat.Domain\obj\Debug\net8.0\ScanEat.Domain.sourcelink.json

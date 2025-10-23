@@ -9,7 +9,6 @@ namespace ScanEat.Domain.Entities
         public string PasswordHash { get; set; }
         public string Role { get; set; } // admin / cashier / cook
         public bool IsActive { get; set; } = true;
-
         public Tenant Tenant { get; set; } = default!;
     }
 }

@@ -1,6 +1,8 @@
-﻿using ScanEat.Application;
+﻿using ScanEat.API.Mapping;
+using ScanEat.Application;
 using ScanEat.Domain;
 using ScanEat.Infrastructure.Persistence;
+using AutoMapper;
 
 namespace ScanEat.API
 {
@@ -10,8 +12,8 @@ namespace ScanEat.API
         {
             services.AddApplicationDI()
                 .AddInfrastructureDI()
-                .AddCoreDI(configuration);
-                //.AddAutoMapper(typeof(MappingProfile).Assembly);
+                .AddCoreDI(configuration)
+                .AddAutoMapper(typeof(MappingProfile).Assembly);
 
             return services;
         }
