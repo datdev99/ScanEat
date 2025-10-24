@@ -1,9 +1,9 @@
 ﻿using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ScanEat.Application.DTOs.Order;
 using ScanEat.Application.Features.Commands;
 using ScanEat.Application.Features.Queries;
+using System.ComponentModel.DataAnnotations;
 
 namespace ScanEat.API.Controllers
 {
@@ -26,19 +26,19 @@ namespace ScanEat.API.Controllers
             return Ok(result);
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetOrderById(Guid id)
+        [HttpGet("{OrderId}")]
+        public async Task<IActionResult> GetOrderById(Guid OrderId)
         {
-            var result = await _mediator.Send(new GetOrderByIdQuery(id));
+            var result = await _mediator.Send(new GetOrderByIdQuery(OrderId));
             return Ok(result);
         }
 
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> UpdateOrder(Guid id, [FromBody] UpdateOrderDto dto)
-        //{
-        //    var result = await _mediator.Send(new UpdateOrderCommand(id, dto));
-        //    return Ok(result);
-        //}
+        [HttpPut("Status/{OrderId}")]
+        public async Task<IActionResult> UpdateOrderStatus([Required] Guid OrderId,[FromBody] UpdateOrderStatusDto dto)
+        {
+            var result = await _mediator.Send(new UpdateOrderStatusCommand(OrderId, dto));
+            return Ok(result);
+        }
         #endregion
     }
 }

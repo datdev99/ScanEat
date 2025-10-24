@@ -5,6 +5,7 @@ using ScanEat.Infrastructure.Persistence.Repository;
 using Microsoft.EntityFrameworkCore;
 using ScanEat.Domain.Options;
 using ScanEat.Infrastructure.Persistence.Data;
+using ScanEat.Infrastructure.Persistence.Firestore;
 
 namespace ScanEat.Infrastructure.Persistence
 {
@@ -15,6 +16,13 @@ namespace ScanEat.Infrastructure.Persistence
             services.AddDbContext<AppDbContext>((provider, options) =>
             {
                 options.UseSqlServer(provider.GetRequiredService<IOptionsSnapshot<ConnectionStringOptions>>().Value.DefaultConnection);
+            });
+
+            services.AddSingleton<FirestoreContext>();
+            services.AddSingleton(provider =>
+            {
+                var context = provider.GetRequiredService<FirestoreContext>();
+                return context.Db;
             });
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();

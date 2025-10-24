@@ -1,6 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ScanEat.Application.DTOs.Category;
-using ScanEat.Application.DTOs.Product;
 using ScanEat.Domain.Entities;
 using ScanEat.Domain.Interfaces;
 using ScanEat.Infrastructure.Persistence.Data;

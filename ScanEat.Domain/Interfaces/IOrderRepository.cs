@@ -6,5 +6,6 @@ namespace ScanEat.Domain.Interfaces
     {
         Task<Order?> GetOrderWithItemsAsync(Guid id);
         Task<Order> AddOrderAsync(Order order);
+        Task UpdateOrderStatusAsync(Guid orderId, string status);
     }
 }

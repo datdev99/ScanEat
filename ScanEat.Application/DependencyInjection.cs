@@ -1,5 +1,6 @@
 ﻿using MediatR.NotificationPublishers;
 using Microsoft.Extensions.DependencyInjection;
+using ScanEat.Application.Services;
 
 namespace ScanEat.Application
 {
@@ -12,6 +13,8 @@ namespace ScanEat.Application
                 cfg.RegisterServicesFromAssembly(typeof(DependencyInjection).Assembly);
                 cfg.NotificationPublisher = new TaskWhenAllPublisher();
             });
+
+            services.AddHostedService<FirebaseCleanupService>();
 
             return services;
         }

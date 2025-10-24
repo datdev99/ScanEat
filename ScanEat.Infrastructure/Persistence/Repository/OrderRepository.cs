@@ -27,5 +27,12 @@ namespace ScanEat.Infrastructure.Persistence.Repository
             .ThenInclude(i => i.Product)
             .FirstOrDefaultAsync(o => o.Id == id);
         }
+
+        public async Task UpdateOrderStatusAsync(Guid orderId, string status)
+        {
+            await _dbContext.Orders
+                .Where(o => o.Id == orderId)
+                .ExecuteUpdateAsync(o => o.SetProperty(order => order.Status, status));
+        }
     }
 }

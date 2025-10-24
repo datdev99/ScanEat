@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScanEat.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5182c83a9de31a2a563a640839d9a53e8463cd2c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09b97bad547c1221e88adc41f028a41033d854a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScanEat.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScanEat.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

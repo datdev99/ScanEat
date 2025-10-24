@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "D:\\DatDev\\ScanEat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBAC84BC-08A1-4399-AC7E-AE323BEEDC57}|ScanEat.Infrastructure\\ScanEat.Infrastructure.csproj|d:\\datdev\\scaneat\\scaneat.infrastructure\\persistence\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBAC84BC-08A1-4399-AC7E-AE323BEEDC57}|ScanEat.Infrastructure\\ScanEat.Infrastructure.csproj|solutionrelative:scaneat.infrastructure\\persistence\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13159F1E-23A3-4FB2-8743-FB95C4932F30}|ScanEat.Application\\ScanEat.Application.csproj|d:\\datdev\\scaneat\\scaneat.application\\features\\commands\\updateorderstatuscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13159F1E-23A3-4FB2-8743-FB95C4932F30}|ScanEat.Application\\ScanEat.Application.csproj|solutionrelative:scaneat.application\\features\\commands\\updateorderstatuscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13159F1E-23A3-4FB2-8743-FB95C4932F30}|ScanEat.Application\\ScanEat.Application.csproj|d:\\datdev\\scaneat\\scaneat.application\\features\\commands\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13159F1E-23A3-4FB2-8743-FB95C4932F30}|ScanEat.Application\\ScanEat.Application.csproj|solutionrelative:scaneat.application\\features\\commands\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EBAC84BC-08A1-4399-AC7E-AE323BEEDC57}|ScanEat.Infrastructure\\ScanEat.Infrastructure.csproj|d:\\datdev\\scaneat\\scaneat.infrastructure\\persistence\\repository\\tenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBAC84BC-08A1-4399-AC7E-AE323BEEDC57}|ScanEat.Infrastructure\\ScanEat.Infrastructure.csproj|solutionrelative:scaneat.infrastructure\\persistence\\repository\\tenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EB4AFAB4-CAAD-4CDF-8257-3B87134EA70C}|ScanEat.API\\ScanEat.API.csproj|d:\\datdev\\scaneat\\scaneat.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB4AFAB4-CAAD-4CDF-8257-3B87134EA70C}|ScanEat.API\\ScanEat.API.csproj|solutionrelative:scaneat.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13159F1E-23A3-4FB2-8743-FB95C4932F30}|ScanEat.Application\\ScanEat.Application.csproj|d:\\datdev\\scaneat\\scaneat.application\\dtos\\tenant\\tenantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13159F1E-23A3-4FB2-8743-FB95C4932F30}|ScanEat.Application\\ScanEat.Application.csproj|solutionrelative:scaneat.application\\dtos\\tenant\\tenantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13159F1E-23A3-4FB2-8743-FB95C4932F30}|ScanEat.Application\\ScanEat.Application.csproj|d:\\datdev\\scaneat\\scaneat.application\\features\\queries\\getorderbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13159F1E-23A3-4FB2-8743-FB95C4932F30}|ScanEat.Application\\ScanEat.Application.csproj|solutionrelative:scaneat.application\\features\\queries\\getorderbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBAC84BC-08A1-4399-AC7E-AE323BEEDC57}|ScanEat.Infrastructure\\ScanEat.Infrastructure.csproj|d:\\datdev\\scaneat\\scaneat.infrastructure\\persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBAC84BC-08A1-4399-AC7E-AE323BEEDC57}|ScanEat.Infrastructure\\ScanEat.Infrastructure.csproj|solutionrelative:scaneat.infrastructure\\persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54C8E509-CD16-4AF8-86B5-47F5433DEBED}|ScanEat.Domain\\ScanEat.Domain.csproj|d:\\datdev\\scaneat\\scaneat.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C8E509-CD16-4AF8-86B5-47F5433DEBED}|ScanEat.Domain\\ScanEat.Domain.csproj|solutionrelative:scaneat.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBAC84BC-08A1-4399-AC7E-AE323BEEDC57}|ScanEat.Infrastructure\\ScanEat.Infrastructure.csproj|d:\\datdev\\scaneat\\scaneat.infrastructure\\persistence\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBAC84BC-08A1-4399-AC7E-AE323BEEDC57}|ScanEat.Infrastructure\\ScanEat.Infrastructure.csproj|solutionrelative:scaneat.infrastructure\\persistence\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54C8E509-CD16-4AF8-86B5-47F5433DEBED}|ScanEat.Domain\\ScanEat.Domain.csproj|d:\\datdev\\scaneat\\scaneat.domain\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54C8E509-CD16-4AF8-86B5-47F5433DEBED}|ScanEat.Domain\\ScanEat.Domain.csproj|solutionrelative:scaneat.domain\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13159F1E-23A3-4FB2-8743-FB95C4932F30}|ScanEat.Application\\ScanEat.Application.csproj|d:\\datdev\\scaneat\\scaneat.application\\dtos\\order\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13159F1E-23A3-4FB2-8743-FB95C4932F30}|ScanEat.Application\\ScanEat.Application.csproj|solutionrelative:scaneat.application\\dtos\\order\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13159F1E-23A3-4FB2-8743-FB95C4932F30}|ScanEat.Application\\ScanEat.Application.csproj|d:\\datdev\\scaneat\\scaneat.application\\dtos\\order\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13159F1E-23A3-4FB2-8743-FB95C4932F30}|ScanEat.Application\\ScanEat.Application.csproj|solutionrelative:scaneat.application\\dtos\\order\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,125 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "D:\\DatDev\\ScanEat\\ScanEat.Infrastructure\\Persistence\\Repository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "ScanEat.Infrastructure\\Persistence\\Repository\\ProductRepository.cs",
-              "ToolTip": "D:\\DatDev\\ScanEat\\ScanEat.Infrastructure\\Persistence\\Repository\\ProductRepository.cs",
-              "RelativeToolTip": "ScanEat.Infrastructure\\Persistence\\Repository\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:29:49.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TenantDto.cs",
-              "DocumentMoniker": "D:\\DatDev\\ScanEat\\ScanEat.Application\\DTOs\\Tenant\\TenantDto.cs",
-              "RelativeDocumentMoniker": "ScanEat.Application\\DTOs\\Tenant\\TenantDto.cs",
-              "ToolTip": "D:\\DatDev\\ScanEat\\ScanEat.Application\\DTOs\\Tenant\\TenantDto.cs",
-              "RelativeToolTip": "ScanEat.Application\\DTOs\\Tenant\\TenantDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBYAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:24:59.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetOrderByIdQuery.cs",
-              "DocumentMoniker": "D:\\DatDev\\ScanEat\\ScanEat.Application\\Features\\Queries\\GetOrderByIdQuery.cs",
-              "RelativeDocumentMoniker": "ScanEat.Application\\Features\\Queries\\GetOrderByIdQuery.cs",
-              "ToolTip": "D:\\DatDev\\ScanEat\\ScanEat.Application\\Features\\Queries\\GetOrderByIdQuery.cs",
-              "RelativeToolTip": "ScanEat.Application\\Features\\Queries\\GetOrderByIdQuery.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABcAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:24:12.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "D:\\DatDev\\ScanEat\\ScanEat.API\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "ScanEat.API\\Controllers\\OrdersController.cs",
-              "ToolTip": "D:\\DatDev\\ScanEat\\ScanEat.API\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "ScanEat.API\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:23:17.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\DatDev\\ScanEat\\ScanEat.Infrastructure\\Persistence\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "ScanEat.Infrastructure\\Persistence\\DependencyInjection.cs",
-              "ToolTip": "D:\\DatDev\\ScanEat\\ScanEat.Infrastructure\\Persistence\\DependencyInjection.cs",
-              "RelativeToolTip": "ScanEat.Infrastructure\\Persistence\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:22:42.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "D:\\DatDev\\ScanEat\\ScanEat.Infrastructure\\Persistence\\Repository\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "ScanEat.Infrastructure\\Persistence\\Repository\\OrderRepository.cs",
-              "ToolTip": "D:\\DatDev\\ScanEat\\ScanEat.Infrastructure\\Persistence\\Repository\\OrderRepository.cs",
-              "RelativeToolTip": "ScanEat.Infrastructure\\Persistence\\Repository\\OrderRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:20:50.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IOrderRepository.cs",
-              "DocumentMoniker": "D:\\DatDev\\ScanEat\\ScanEat.Domain\\Interfaces\\IOrderRepository.cs",
-              "RelativeDocumentMoniker": "ScanEat.Domain\\Interfaces\\IOrderRepository.cs",
-              "ToolTip": "D:\\DatDev\\ScanEat\\ScanEat.Domain\\Interfaces\\IOrderRepository.cs",
-              "RelativeToolTip": "ScanEat.Domain\\Interfaces\\IOrderRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:20:26.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderDto.cs",
-              "DocumentMoniker": "D:\\DatDev\\ScanEat\\ScanEat.Application\\DTOs\\Order\\OrderDto.cs",
-              "RelativeDocumentMoniker": "ScanEat.Application\\DTOs\\Order\\OrderDto.cs",
-              "ToolTip": "D:\\DatDev\\ScanEat\\ScanEat.Application\\DTOs\\Order\\OrderDto.cs",
-              "RelativeToolTip": "ScanEat.Application\\DTOs\\Order\\OrderDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:16:44.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OrderItemDto.cs",
-              "DocumentMoniker": "D:\\DatDev\\ScanEat\\ScanEat.Application\\DTOs\\Order\\OrderItemDto.cs",
-              "RelativeDocumentMoniker": "ScanEat.Application\\DTOs\\Order\\OrderItemDto.cs",
-              "ToolTip": "D:\\DatDev\\ScanEat\\ScanEat.Application\\DTOs\\Order\\OrderItemDto.cs",
-              "RelativeToolTip": "ScanEat.Application\\DTOs\\Order\\OrderItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:16:38.36Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -177,9 +44,74 @@
               "RelativeDocumentMoniker": "ScanEat.Application\\Features\\Commands\\CreateOrderCommand.cs",
               "ToolTip": "D:\\DatDev\\ScanEat\\ScanEat.Application\\Features\\Commands\\CreateOrderCommand.cs",
               "RelativeToolTip": "ScanEat.Application\\Features\\Commands\\CreateOrderCommand.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:13:22.404Z",
+              "WhenOpened": "2025-10-24T06:51:25.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\DatDev\\ScanEat\\ScanEat.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "ScanEat.Domain\\Entities\\Order.cs",
+              "ToolTip": "D:\\DatDev\\ScanEat\\ScanEat.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "ScanEat.Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T06:40:53.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TenantRepository.cs",
+              "DocumentMoniker": "D:\\DatDev\\ScanEat\\ScanEat.Infrastructure\\Persistence\\Repository\\TenantRepository.cs",
+              "RelativeDocumentMoniker": "ScanEat.Infrastructure\\Persistence\\Repository\\TenantRepository.cs",
+              "ToolTip": "D:\\DatDev\\ScanEat\\ScanEat.Infrastructure\\Persistence\\Repository\\TenantRepository.cs",
+              "RelativeToolTip": "ScanEat.Infrastructure\\Persistence\\Repository\\TenantRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T06:36:46.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\DatDev\\ScanEat\\ScanEat.API\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "ScanEat.API\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\DatDev\\ScanEat\\ScanEat.API\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "ScanEat.API\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T06:33:47.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateOrderStatusCommand.cs",
+              "DocumentMoniker": "D:\\DatDev\\ScanEat\\ScanEat.Application\\Features\\Commands\\UpdateOrderStatusCommand.cs",
+              "RelativeDocumentMoniker": "ScanEat.Application\\Features\\Commands\\UpdateOrderStatusCommand.cs",
+              "ToolTip": "D:\\DatDev\\ScanEat\\ScanEat.Application\\Features\\Commands\\UpdateOrderStatusCommand.cs",
+              "RelativeToolTip": "ScanEat.Application\\Features\\Commands\\UpdateOrderStatusCommand.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowCcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T06:33:35.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\DatDev\\ScanEat\\ScanEat.Infrastructure\\Persistence\\Repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "ScanEat.Infrastructure\\Persistence\\Repository\\OrderRepository.cs",
+              "ToolTip": "D:\\DatDev\\ScanEat\\ScanEat.Infrastructure\\Persistence\\Repository\\OrderRepository.cs",
+              "RelativeToolTip": "ScanEat.Infrastructure\\Persistence\\Repository\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T06:31:55.944Z",
               "EditorCaption": ""
             }
           ]

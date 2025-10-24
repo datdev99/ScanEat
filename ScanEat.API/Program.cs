@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ScanEat.API;
+using ScanEat.Application.Services;
 using ScanEat.Infrastructure.Persistence.Data;
 
 var builder = WebApplication.CreateBuilder(args);
